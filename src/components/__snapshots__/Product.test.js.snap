@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Product correctly 1`] = `
+<div
+  style={
+    Object {
+      "color": "black",
+      "marginBottom": "20px",
+      "position": "relative",
+    }
+  }
+>
+  <Image
+    fluid={false}
+    onClick={[Function]}
+    rounded={false}
+    roundedCircle={false}
+    src="https://assets.weimgs.com/weimgs/ab/images/wcm/products/202041/0022/festive-stripe-salad-plate-m.jpg"
+    style={
+      Object {
+        "height": "363",
+        "width": "363",
+      }
+    }
+    thumbnail={false}
+  />
+  <div
+    className="product-name"
+  >
+    $Festive Stripe Salad Plate 
+  </div>
+  <div
+    className="product-price"
+  >
+    $10.5
+  </div>
+  <Modal
+    animation={true}
+    autoFocus={true}
+    backdrop={true}
+    dialogAs={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    enforceFocus={true}
+    keyboard={true}
+    onHide={[Function]}
+    restoreFocus={true}
+    show={false}
+  >
+    <ModalHeader
+      closeButton={true}
+      closeLabel="Close"
+    >
+      <CarouselComponent />
+    </ModalHeader>
+  </Modal>
+</div>
+`;
