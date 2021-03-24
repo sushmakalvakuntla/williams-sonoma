@@ -26,5 +26,17 @@ exports[`renders CustomCarousel correctly 1`] = `
   slide={true}
   touch={true}
   wrap={true}
-/>
+>
+  <CarouselItem
+    key="0"
+  >
+    <Image
+      fluid={false}
+      rounded={false}
+      roundedCircle={false}
+      src="https://assets.weimgs.com/weimgs/ab/images/wcm/products/202111/0061/walnut-led-desk-lamp-2-m.jpg"
+      thumbnail={false}
+    />
+  </CarouselItem>
+</Carousel>
 `;

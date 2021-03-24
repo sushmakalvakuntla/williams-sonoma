@@ -1,61 +1,134 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Product correctly 1`] = `
-<div
-  style={
+exports[`Product renders Product correctly 1`] = `
+<Product
+  product={
     Object {
-      "color": "black",
-      "marginBottom": "20px",
-      "position": "relative",
+      "hero": Object {
+        "alt": "",
+        "height": 363,
+        "href": "https://assets.weimgs.com/weimgs/ab/images/wcm/products/202041/0022/festive-stripe-salad-plate-m.jpg",
+        "meta": "",
+        "rel": "hero",
+        "size": "m",
+        "width": 363,
+      },
+      "id": "festive-stripe-salad-plate-d6827",
+      "images": Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://assets.weimgs.com/weimgs/ab/images/wcm/products/202111/0061/walnut-led-desk-lamp-2-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ],
+      "links": Object {
+        "www": "https://www.westelm.com/products/festive-stripe-salad-plate-d6827/",
+      },
+      "name": "Festive Stripe Salad Plate",
+      "price": Object {
+        "regular": 10.5,
+        "selling": 10.5,
+      },
     }
   }
+  show={false}
 >
-  <Image
-    fluid={false}
-    onClick={[Function]}
-    rounded={false}
-    roundedCircle={false}
-    src="https://assets.weimgs.com/weimgs/ab/images/wcm/products/202041/0022/festive-stripe-salad-plate-m.jpg"
+  <div
     style={
       Object {
-        "height": "363",
-        "width": "363",
+        "color": "black",
+        "marginBottom": "20px",
+        "position": "relative",
       }
     }
-    thumbnail={false}
-  />
-  <div
-    className="product-name"
   >
-    $Festive Stripe Salad Plate 
-  </div>
-  <div
-    className="product-price"
-  >
-    $10.5
-  </div>
-  <Modal
-    animation={true}
-    autoFocus={true}
-    backdrop={true}
-    dialogAs={
-      Object {
-        "$$typeof": Symbol(react.forward_ref),
-        "render": [Function],
+    <Image
+      fluid={false}
+      onClick={[Function]}
+      rounded={false}
+      roundedCircle={false}
+      src="https://assets.weimgs.com/weimgs/ab/images/wcm/products/202041/0022/festive-stripe-salad-plate-m.jpg"
+      style={
+        Object {
+          "height": "363",
+          "width": "363",
+        }
       }
-    }
-    enforceFocus={true}
-    keyboard={true}
-    onHide={[Function]}
-    restoreFocus={true}
-    show={false}
-  >
-    <ModalHeader
-      closeButton={true}
-      closeLabel="Close"
+      thumbnail={false}
     >
-      <CarouselComponent />
-    </ModalHeader>
-  </Modal>
-</div>
+      <img
+        className=""
+        onClick={[Function]}
+        src="https://assets.weimgs.com/weimgs/ab/images/wcm/products/202041/0022/festive-stripe-salad-plate-m.jpg"
+        style={
+          Object {
+            "height": "363",
+            "width": "363",
+          }
+        }
+      />
+    </Image>
+    <div
+      className="product-name"
+    >
+      Festive Stripe Salad Plate 
+    </div>
+    <div
+      className="product-price"
+    >
+      $10.5
+    </div>
+    <Modal
+      animation={true}
+      autoFocus={true}
+      backdrop={true}
+      dialogAs={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "ModalDialog",
+          "render": [Function],
+        }
+      }
+      enforceFocus={true}
+      keyboard={true}
+      onHide={[Function]}
+      restoreFocus={true}
+      show={false}
+    >
+      <Modal
+        autoFocus={true}
+        backdrop={true}
+        backdropTransition={[Function]}
+        containerClassName="modal-open"
+        enforceFocus={true}
+        keyboard={true}
+        manager={
+          BootstrapModalManager {
+            "containers": Array [],
+            "data": Array [],
+            "handleContainerOverflow": true,
+            "hideSiblingNodes": true,
+            "modals": Array [],
+            "scrollbarSize": 0,
+          }
+        }
+        onEnter={[Function]}
+        onEntering={[Function]}
+        onEscapeKeyDown={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onHide={[Function]}
+        renderBackdrop={[Function]}
+        renderDialog={[Function]}
+        restoreFocus={true}
+        show={false}
+        transition={[Function]}
+      />
+    </Modal>
+  </div>
+</Product>
 `;

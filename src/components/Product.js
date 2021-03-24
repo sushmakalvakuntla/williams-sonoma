@@ -24,13 +24,13 @@ const Product = ({ product }) => {
         }}
         onClick={() => setShow(true)}
       />
-      <div className="product-name">{`$${product?.name} `}</div>
+      <div className="product-name">{`${product?.name} `}</div>
       <div className="product-price">
         {`$${
           product.price
             ? product.price.regular
             : product.priceRange.selling.high
-        }`}
+          }`}
       </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
